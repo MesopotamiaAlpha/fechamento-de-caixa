@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fechamento de caixa 1.0</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+     
+    <!--campo dos estilos na pagina-->
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="JavaScript" href="js/calculo.js">
+
+</head>
+
+
+<body>
+
+    <h1 id="titulo_principal" class="titulo_principal">Fechamento de caixa</h1>
+
+    <section id="caixa">
+        <section id="texto_dinheiro">
+        <h1 id="titulo">Notas</h1>
+        <div id="txtRelatorio">Dinheiro em caixa</div>
+
+        <div id="txt100">R$100,00 = </div>
+        <input type="number" name="nota100" id="nota100" defaultValue="0">
+
+        <br>
+
+        <div id="txt50">R$ 50,00 = </div>
+        <input type="number" name="nota50" id="nota50" defaultValue="0">
+
+        <br>
+
+        <div id="txt20">R$ 20,00 = </div>
+        <input type="number" name="nota20" id="nota20" defaultValue="0">
+
+        <br>
+
+        <div id="txt10">R$ 10,00 = </div>
+        <input type="number" name="nota10" id="nota10" defaultValue="0">
+
+        <br>
+
+        <div id="txt5">R$ 5,00 = </div>
+        <input type="number" name="nota5" id="nota5" defaultValue="0">
+
+        <br>
+
+        <div id="txt2">R$ 2,00 = </div>
+        <input type="number" name="nota2" id="nota2" defaultValue="0">
+
+        <br>
+
+        <div id="txt1">R$ 1,00 = </div>
+        <input type="number" name="moeda1" id="moeda1" defaultValue="0">
+
+        <br>
+
+        <div id="txt050">R$ 0,50 = </div>
+        <input type="number" name="moeda050" id="moeda050" defaultValue="0">
+
+        <br>
+
+        <div id="txt025">R$ 0,25 = </div>
+        <input type="number" name="moeda025" id="moeda025" defaultValue="0">
+
+        <br>
+
+        <div id="txt010">R$ 0,10 = </div>
+        <input type="number" name="moeda010" id="moeda010" defaultValue="0">
+
+        <br>
+
+        <div id="txt005">R$ 0,05 = </div>
+        <input type="number" name="moeda005" id="moeda005" defaultValue="0">
+
+        <br>
+
+        
+        <button class="btn waves-effect waves-light" type="submit" onclick="somar()">Somar</button>
+        <div id="resultado">Resultado = </div>
+
+    </section>
+</section>
+
+    <section id="relatorio">
+
+
+        <section id="texto_relatorio1">
+        <h1 id="titulo">Notas</h1>
+        <div id="txtRelatorio">Relatório de fechamento</div>
+
+        <div id="txt2100">R$ 100,00 = </div>
+        <input type="number" name="nota2100" id="nota2100" defaultValue="0">
+
+        <br>
+
+        <div id="txt250">R$ 50,00 = </div>
+        <input type="number" name="nota250" id="nota250" defaultValue="0">
+
+        <br>
+
+        <div id="txt220">R$ 20,00 = </div>
+        <input type="number" name="nota220" id="nota220" defaultValue="0">
+
+        <br>
+
+        <div id="txt210">R$ 10,00 = </div>
+        <input type="number" name="nota210" id="nota210" defaultValue="0">
+
+        <br>
+
+        <div id="txt25">R$ 5,00 = </div>
+        <input type="number" name="nota25" id="nota25" defaultValue="0">
+
+        <br>
+
+        <div id="txt22">R$ 2,00 = </div>
+        <input type="number" name="nota22" id="nota22" defaultValue="0">
+
+        <br>
+
+        <div id="txt21">R$ 1,00 = </div>
+        <input type="number" name="moeda21" id="moeda21" defaultValue="0">
+
+        <br>
+
+        <div id="txt2050">R$ 0,50 = </div>
+        <input type="number" name="moeda2050" id="moeda2050" defaultValue="0">
+
+        <br>
+
+        <div id="txt2025">R$ 0,25 = </div>
+        <input type="number" name="moeda2025" id="moeda2025" defaultValue="0">
+
+        <br>
+
+        <div id="txt2010">R$ 0,10 = </div>
+        <input type="number" name="moeda2010" id="moeda2010" defaultValue="0">
+
+        <br>
+
+        <div id="txt2005">R$ 0,05 = </div>
+        <input type="number" name="moeda2005" id="moeda2005" defaultValue="0">
+
+        <br>
+
+       
+        <button class="btn waves-effect waves-light" type="submit" onclick="somar2()">Somar</button>
+        <div id="resultado2">Resultado = </div>
+
+    </section>
+</section>
+
+<section id="prinex">
+    <h1 id="titulo">Prinex</h1>
+    <div id="prinextxt">Valor = </div><input type="number" name="prinex1" id="prinex1">
+    <br>
+    <div id="prinextxt">Valor = </div><input type="number" name="prinex2" id="prinex2">
+    <br>
+    <div id="prinextxt">Valor = </div><input type="number" name="prinex3" id="prinex3">
+    <br>
+    <div id="prinextxt">Valor = </div><input type="number" name="prinex4" id="prinex4">
+    <br>
+    <div id="prinextxt">Valor = </div><input type="number" name="prinex5" id="prinex5">
+    <br>
+    <a class="waves-effect waves-light btn" type="submit" onclick="somar3()">Somar</a>
+    <div id="resultado3">Resultado = </div>
+
+</section>
+
+<script src="js/calculo.js"></script>
+
+
+
+
+<input id="check01" type="checkbox" name="menu" />
+<label for="check01">Calculadora</label>
+<ul class="submenu">
+
+    <form class="calculator" name="calc">
+      <input class="value" type="text" name="txt" readonly="">
+      <span class="num clear waves-effect waves-light" onclick="document.calc.txt.value =''">Limpar</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='/'">/</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='*'">*</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='7'">7</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='8'">8</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='9'">9</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='-'">-</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='4'">4</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='5'">5</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='6'">6</span>
+      <span class="num plus waves-effect waves-light btn" onclick="document.calc.txt.value +='+'">+</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='3'">3</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='2'">2</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='1'">1</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='0'">0</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='00'">00</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='.'">.</span>
+      <span class="num equal waves-effect waves-light btn" onclick="document.calc.txt.value = eval(calc.txt.value) ">=</span>
+  
+  
+  </form>
+
+</ul>
+
+<!--
+    <section id="calculadora" class="calculadora">
+    <form class="calculator" name="calc">
+      <input class="value" type="text" name="txt" readonly="">
+      <span class="num clear waves-effect waves-light" onclick="document.calc.txt.value =''">Limpar</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='/'">/</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='*'">*</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='7'">7</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='8'">8</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='9'">9</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='-'">-</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='4'">4</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='5'">5</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='6'">6</span>
+      <span class="num plus waves-effect waves-light btn" onclick="document.calc.txt.value +='+'">+</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='3'">3</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='2'">2</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='1'">1</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='0'">0</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='00'">00</span>
+      <span class="num waves-effect waves-light btn" onclick="document.calc.txt.value +='.'">.</span>
+      <span class="num equal waves-effect waves-light btn" onclick="document.calc.txt.value = eval(calc.txt.value) ">=</span>
+  
+  
+  </form>
+  
+  </section>
+-->
+
+
+
+
+</body>
+</html>

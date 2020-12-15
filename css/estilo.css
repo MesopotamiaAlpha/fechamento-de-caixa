@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap');
+
+
+.body{
+    background: #fff;
+}
+
+.titulo_principal{
+    font: bold 30pt Arial;
+    color: black;
+    text-align:center;
+    
+}
+
+
+    section#caixa{
+        border-radius: 10px;
+        padding: 25px;
+        width: 400px;
+        float: left;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
+    
+    }
+    section#texto_dinheiro{
+        text-align: center;
+    }
+    section#relatorio{
+        border-radius: 10px;
+        padding: 25px;
+        width: 400px;
+        float: left;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
+    
+    }
+    section#texto_relatorio1{
+        text-align: center;
+    }
+    section#prinex{
+        border-radius: 10px;
+        padding: 25px;
+        width: 400px;
+        float: left;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+        background: linear-gradient(152deg, rgba(160,238,211,1) 0%, rgba(50,168,59,1) 35%, rgba(0,255,218,1) 100%);
+    
+    }
+    h1#titulo{
+                font: normal 15pt Arial;
+                color: black;
+                text-align:center;
+    
+    }
+    div#txt100{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left;
+        display: inline-block;
+    }
+    div#txt50{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;
+    }
+    div#txt20{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;
+    }
+    div#txt10{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block; 
+    }
+    div#txt5{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt2{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt1{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt050{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt025{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt010{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt005{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    input#nota100{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota50{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;  
+    }
+    input#nota20{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota10{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;  
+    } 
+    input#nota5{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota2{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda1{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda050{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda025{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda010{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda005{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    div#txtRelatorio{
+        font-size: 20px;
+        text-align: center;
+        float: center;
+        
+    }
+    div#txt2100{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left;
+        display: inline-block;
+    }
+    div#txt250{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;
+    }
+    div#txt220{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;
+    }
+    div#txt210{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block; 
+    }
+    div#txt25{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt22{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt21{
+        font:  70pt;
+        width: 90px;
+        color:black;
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt2050{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt2025{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt2010{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    div#txt2005{
+        font:  70pt;
+        width: 90px;
+        color: rgb(0, 0, 0);
+        right: 800px;
+        text-align: left; 
+        display: inline-block;   
+    }
+    input#nota2100{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota250{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;  
+    }
+    input#nota220{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota210{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;  
+    } 
+    input#nota25{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#nota22{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda21{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda2050{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda2025{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda2010{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;   
+    }
+    input#moeda2005{
+        width: 60px;
+        color: black;
+        right: 800px;
+        position: left;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    div#prinextxt{
+        font:  70pt;
+        width: 90px;
+        color: black;
+        right: 800px;
+        text-align: center;
+        display: inline-block;
+    }
+    input#prinex1{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    input#prinex2{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    input#prinex2{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    input#prinex3{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    input#prinex4{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+    input#prinex5{
+        width: 85px;
+        color: black;
+        right: 800px;
+        position: center;
+        top: 20px;
+        text-transform: uppercase;
+        text-align: center;  
+        display: inline-block;
+           
+    }
+
+.btn_calc{
+    margin-top: 17%;
+    
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+ section#calculadora{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: fff;
+    border-radius: 30%;
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+       
+ }
+
+
+.calculator{
+    position: relative;
+    display: grid;
+
+}
+
+.calculator .value{
+    grid-column: span 4;
+    height: 100px;
+    text-align: right;
+    border: 1px solid black;
+    outline: none;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.calculator span{
+    display: grid;
+    width: 63px;
+    height: 60px;
+    color: #fff;
+    background: #0c2835;
+    place-items: center;
+    border: 1px solid rgba(0,0,0,.1);
+}
+
+.calculator span:active{
+    background: #74ff3b;
+    color: #111;
+}
+
+.calculator span.clear{
+    grid-column: span 2;
+    width: 125px;
+    background: #ff3077;
+}
+
+.calculator span.plus{
+    grid-row: span 2;
+    height: 120px;
+}
+
+.calculator span.equal{
+    background: #03b1ff;
+}
+
+
+/*hide the inputs/checkmarks and submenu*/
+input, ul.submenu {
+    display: none;
+    
+
+  }
+  
+  /*position the label*/
+  label {
+    font-size: 15px;
+    position: relative;
+    display: block;
+    cursor: pointer;
+  }
+  
+  /*show the submenu when input is checked*/
+  input:checked~ul.submenu {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+    background: fff;
+    border-radius: 30%;
+    margin: 5px;
+    padding: 5px;
+    width: 40%;
+  }
