@@ -1,98 +1,115 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:300,400,500,600,700,800,900&display=swap');
+/*Esta parte comentei pois estava afetando todo o layout de toda a pagina{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background: #1c92d2;  
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+}
+*/
 
 
-.body{
-    background: #fff;
+body{
+    background: #1c92d2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .titulo_principal{
     font: bold 30pt Arial;
     color: black;
     text-align:center;
-    
 }
 
+section#caixa{
+        border-radius: 10px;
+        padding: 25px;
+        width: 400px;
+        float: left;
+        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
+        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
+}
 
-    section#caixa{
-        border-radius: 10px;
-        padding: 25px;
-        width: 400px;
-        float: left;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
-    
-    }
-    section#texto_dinheiro{
+section#texto_dinheiro{
         text-align: center;
-    }
-    section#relatorio{
+}
+
+section#relatorio{
         border-radius: 10px;
         padding: 25px;
         width: 400px;
         float: left;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
-    
-    }
-    section#texto_relatorio1{
+        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);    
+}
+
+section#texto_relatorio1{
         text-align: center;
-    }
-    section#prinex{
+}
+
+section#prinex{
         border-radius: 10px;
         padding: 25px;
         width: 400px;
         float: left;
         box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(160,238,211,1) 0%, rgba(50,168,59,1) 35%, rgba(0,255,218,1) 100%);
-    
-    }
-    h1#titulo{
+        background: linear-gradient(152deg, rgba(160,238,211,1) 0%, rgba(50,168,59,1) 35%, rgba(0,255,218,1) 100%);    
+}
+
+h1#titulo{
                 font: normal 15pt Arial;
                 color: black;
                 text-align:center;
     
-    }
-    div#txt100{
+}
+
+div#txt100{
         font:  70pt;
         width: 90px;
         color: black;
         right: 800px;
         text-align: left;
         display: inline-block;
-    }
-    div#txt50{
+}
+
+div#txt50{
         font:  70pt;
         width: 90px;
         color: black;
         right: 800px;
         text-align: left; 
         display: inline-block;
-    }
-    div#txt20{
+}
+
+div#txt20{
         font:  70pt;
         width: 90px;
         color: black;
         right: 800px;
         text-align: left; 
         display: inline-block;
-    }
-    div#txt10{
+}
+
+div#txt10{
         font:  70pt;
         width: 90px;
         color: black;
         right: 800px;
         text-align: left; 
         display: inline-block; 
-    }
-    div#txt5{
+}
+
+div#txt5{
         font:  70pt;
         width: 90px;
         color: black;
         right: 800px;
         text-align: left; 
         display: inline-block;   
-    }
-    div#txt2{
+   }
+
+div#txt2{
         font:  70pt;
         width: 90px;
         color: black;
@@ -537,13 +554,6 @@
     
 }
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-}
-
  section#calculadora{
     display: flex;
     justify-content: center;
@@ -555,7 +565,7 @@
     padding: 5px;
     width: 40%;
        
- }
+}
 
 
 .calculator{
