@@ -13,3 +13,15 @@ btnSignup.addEventListener("click", function () {
     body.className = "sign-up-js";
 })
 
+
+/*
+function validate(){
+    var username = document.getElementById("email").value;
+    var password = document.getElementById("password").value;
+    if ( username == "email@email.com" && password == "formget#123"){
+    alert ("Login successfully");
+    window.location = "calculo.html"; // Redirecting to other page.
+    return false;
+    }
+    }
+    */
