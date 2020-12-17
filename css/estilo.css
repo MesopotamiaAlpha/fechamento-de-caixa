@@ -25,10 +25,8 @@ body{
 section#caixa{
         border-radius: 10px;
         padding: 25px;
-        width: 400px;
+        width: 300px;
         float: left;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);
 }
 
 section#texto_dinheiro{
@@ -39,9 +37,7 @@ section#relatorio{
         border-radius: 10px;
         padding: 25px;
         width: 400px;
-        float: left;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(79,186,255,1) 0%, rgba(81,70,235,1) 35%, rgba(188,0,255,0.0760679271708683) 100%);    
+        float: left;  
 }
 
 section#texto_relatorio1{
@@ -52,9 +48,7 @@ section#prinex{
         border-radius: 10px;
         padding: 25px;
         width: 400px;
-        float: left;
-        box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.363);
-        background: linear-gradient(152deg, rgba(160,238,211,1) 0%, rgba(50,168,59,1) 35%, rgba(0,255,218,1) 100%);    
+        float: left; 
 }
 
 h1#titulo{
@@ -550,70 +544,7 @@ div#txt2{
 
 .btn_calc{
     margin-top: 17%;
-    
-    
 }
-
- section#calculadora{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 60vh;
-    background: fff;
-    border-radius: 30%;
-    margin: 5px;
-    padding: 5px;
-    width: 40%;
-       
-}
-
-
-.calculator{
-    position: relative;
-    display: grid;
-
-}
-
-.calculator .value{
-    grid-column: span 4;
-    height: 100px;
-    text-align: right;
-    border: 1px solid black;
-    outline: none;
-    padding: 10px;
-    font-size: 18px;
-}
-
-.calculator span{
-    display: grid;
-    width: 63px;
-    height: 60px;
-    color: #fff;
-    background: #0c2835;
-    place-items: center;
-    border: 1px solid rgba(0,0,0,.1);
-}
-
-.calculator span:active{
-    background: #74ff3b;
-    color: #111;
-}
-
-.calculator span.clear{
-    grid-column: span 2;
-    width: 125px;
-    background: #ff3077;
-}
-
-.calculator span.plus{
-    grid-row: span 2;
-    height: 120px;
-}
-
-.calculator span.equal{
-    background: #03b1ff;
-}
-
 
 /*hide the inputs/checkmarks and submenu*/
 input, ul.submenu {
