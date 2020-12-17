@@ -11,9 +11,9 @@
 
 
 body{
-    background: #1c92d2;  /* fallback for old browsers */
+    background: #ffffff;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to bottom, #f2fcfe, #66ee9a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .titulo_principal{
@@ -24,7 +24,6 @@ body{
 
 section#caixa{
         border-radius: 10px;
-        padding: 25px;
         width: 300px;
         float: left;
 }
@@ -35,7 +34,6 @@ section#texto_dinheiro{
 
 section#relatorio{
         border-radius: 10px;
-        padding: 25px;
         width: 400px;
         float: left;  
 }
@@ -46,31 +44,30 @@ section#texto_relatorio1{
 
 section#prinex{
         border-radius: 10px;
-        padding: 25px;
-        width: 400px;
+        width: 200px;
         float: left; 
 }
 
 h1#titulo{
-                font: normal 15pt Arial;
-                color: black;
-                text-align:center;
+        font: normal 15pt Arial;
+        color: black;
+        text-align:center;
     
 }
 
 div#txt100{
-        font:  70pt;
+        font-size: 15px;
         width: 90px;
-        color: black;
-        right: 800px;
+        color: #5ea9a0;
         text-align: left;
         display: inline-block;
+        text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt50{
         font:  70pt;
         width: 90px;
-        color: black;
+        color: #dcb481;
         right: 800px;
         text-align: left; 
         display: inline-block;
