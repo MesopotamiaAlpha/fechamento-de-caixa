@@ -11,24 +11,34 @@
 
 
 body{
-    background: #ffffff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, #f2fcfe, #1c92d2);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom, #f2fcfe, #66ee9a); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: rgb(242,242,245);
+    background: linear-gradient(170deg, rgba(242,242,245,1) 0%, rgba(255,255,255,1) 14%, rgba(0,255,151,0.5847457627118644) 100%);
 }
 
-.titulo_principal{
+.barra_superior{
+    box-sizing: border-box;
+    border-bottom: 4mm ridge rgba(50, 220, 121, 0.6);
+    margin-top: 0%;
+    padding-top: 40px;
     font: bold 30pt Arial;
-    color: black;
+    width: 1908px;
+    height: 120px;
     text-align:center;
+    background: #3CA55C;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #87f1c5, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #87f1c5, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 section#caixa{
+        margin-left: 1%;
         border-radius: 10px;
         width: 300px;
         float: left;
 }
 
 section#texto_dinheiro{
+        border: 1mm ridge black;
         text-align: center;
 }
 
@@ -56,6 +66,7 @@ h1#titulo{
 }
 
 div#txt100{
+        
         font-size: 15px;
         width: 90px;
         color: #5ea9a0;
@@ -65,6 +76,7 @@ div#txt100{
 }
 
 div#txt50{
+    
         font:  70pt;
         width: 90px;
         color: #dcb481;
@@ -74,6 +86,7 @@ div#txt50{
 }
 
 div#txt20{
+    
         font:  70pt;
         width: 90px;
         color: black;
