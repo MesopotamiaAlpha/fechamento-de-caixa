@@ -38,8 +38,12 @@ section#caixa{
 }
 
 section#texto_dinheiro{
-        border: 1mm ridge black;
-        text-align: center;
+    margin-left: 1%;
+    border-radius: 10px;
+    width: 300px;
+    float: center;
+    border: 1mm ridge black;
+    text-align: center;
 }
 
 section#relatorio{
@@ -49,13 +53,21 @@ section#relatorio{
 }
 
 section#texto_relatorio1{
-        text-align: center;
+    margin-left: 1%;
+    border-radius: 10px;
+    width: 300px;
+    float: center;
+    border: 1mm ridge black;
+    text-align: center;
 }
 
 section#prinex{
-        border-radius: 10px;
-        width: 200px;
-        float: left; 
+    margin-left: 630%;
+    border-radius: 10px;
+    width: 300px;
+    float: center;
+    border: 1mm ridge black;
+    text-align: center; 
 }
 
 h1#titulo{
@@ -66,10 +78,15 @@ h1#titulo{
 }
 
 div#txt100{
-        
+        margin-left: 1%;
+        border-radius: 0px;
+        width: 300px;
+        border: 0,10mm ridge black;
+        text-align: center;
+        background-color:#acd5e5;
         font-size: 15px;
         width: 90px;
-        color: #5ea9a0;
+        color: #000000;
         text-align: left;
         display: inline-block;
         text-shadow: 2px 2px 5px #000000;
