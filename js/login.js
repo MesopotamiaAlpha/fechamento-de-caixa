@@ -18,8 +18,10 @@ function validate(){
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     if ( username == "email@email.com" && password == "teste"){
-    alert ("Login realizado com sucesso!");
-    window.location = "calculo.html"; // Redirecting to other page.
+    window.alert ("Login realizado com sucesso!");
+    window.location.href = "http://127.0.0.1:5500/calculo.html"; // Redirecionando para outra pagina.
     return false;
+    }else{
+        window.alert("Usuario ou senha invalidos");
     }
 }
