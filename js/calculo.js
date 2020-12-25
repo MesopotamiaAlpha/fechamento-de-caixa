@@ -69,7 +69,7 @@ function somar2(){
     
 }
 
-function somar3(){
+function prinexS(){
     var resultado3 = window.document.getElementById('resultado3');
     var prinex1 = window.document.getElementById('prinex1');
     var prinex2 = window.document.getElementById('prinex2');

@@ -19,9 +19,13 @@ function validate(){
     var password = document.getElementById("password").value;
     if ( username == "email@email.com" && password == "teste"){
     window.alert ("Login realizado com sucesso!");
-    window.location.href = "http://127.0.0.1:5500/calculo.html"; // Redirecionando para outra pagina.
+    pagina(); // Redirecionando para outra pagina.
     return false;
     }else{
         window.alert("Usuario ou senha invalidos");
     }
+}
+
+function pagina(){
+    window.location.href = "http://127.0.0.1:5500/calculo.html";
 }
