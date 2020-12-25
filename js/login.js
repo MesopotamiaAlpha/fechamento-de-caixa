@@ -14,13 +14,11 @@ btnSignup.addEventListener("click", function () {
 
 })
 
-
-
 function validate(){
     var username = document.getElementById("email").value;
     var password = document.getElementById("password").value;
     if ( username == "email@email.com" && password == "teste"){
-    alert ("Login successfully");
+    alert ("Login realizado com sucesso!");
     window.location = "calculo.html"; // Redirecting to other page.
     return false;
     }
