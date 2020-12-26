@@ -151,7 +151,7 @@ div#txt5{
     text-align: left;
     display: inline-block;
     text-shadow: 2px 2px 5px #000000;   
-   }
+}
 
 div#txt2{
     margin-left: 1%;
@@ -166,7 +166,7 @@ div#txt2{
     text-align: left;
     display: inline-block;
     text-shadow: 2px 2px 5px #000000;    
-    }
+}
 
 div#txt1{
     margin-left: 1%;
@@ -226,7 +226,7 @@ div#txt010{
     text-align: left;
     display: inline-block;
     text-shadow: 2px 2px 5px #000000;    
-    }
+}
 
 div#txt005{
     margin-left: 1%;
@@ -570,31 +570,3 @@ input#prinex5{
     margin-top: 17%;
 }
 
-/*hide the inputs/checkmarks and submenu*/
-input, ul.submenu {
-    display: none;
-    
-
-}
-  
-  /*position the label*/
-label {
-    font-size: 15px;
-    position: relative;
-    display: block;
-    cursor: pointer;
-}
-  
-  /*show the submenu when input is checked*/
-input:checked~ul.submenu {
-    display: flex;
-    
-    justify-content: center;
-    align-items: center;
-    min-height: 60vh;
-    background: fff;
-    border-radius: 30%;
-    margin: 5px;
-    padding: 5px;
-    width: 40%;
-}
