@@ -7,7 +7,10 @@
     <link rel="shortcut icon" href="/icone/favicon.ico">
     <link rel="stylesheet" href="/css/login.css">
     <script type="text/javascript" src="/js/login.js"></script>
-    <script src="/js/fire.js"></script>
+    <script src="/js/chave.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-analytics.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.2.6/firebase-auth.js"></script>
   </head>
 
   <body>
@@ -22,12 +25,12 @@
   <div id="formulario">
     <form>
 
-      <p class="t_login">Coloque seu usuário<input type="text" id="usuario" placeholder="Usuário" required></p>
+      <p class="t_login">Coloque seu usuário<input type="text" id="signup-email" placeholder="Usuário" required></p>
 
-      <p class="t_login">Entre com sua senha<input type="text" id="senha" placeholder="Senha" required></p>
+      <p class="t_login">Entre com sua senha<input type="text" id="signup-password" placeholder="Senha" required></p>
 
       <!-- Aqui preferi não usar a propriedade button para criar o layout do botão como eu prefiro usando a tag a -->
-      <a class="btn" onc onclick="validar()">Entrar</a>
+      <a class="btn" onclick="validar()">Entrar</a>
       <p>Usuario: teste</p>
       <p>Senha: teste</p>
 
