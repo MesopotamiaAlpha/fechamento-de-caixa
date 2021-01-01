@@ -27,5 +27,5 @@ function validate(){
 }
 
 function pagina(){
-    window.location.href = "http://127.0.0.1:5500/calculo.html";
+    window.location.href = "http://127.0.0.1:5500/menu.html";
 }

@@ -10,18 +10,30 @@ h2{
 /* esta parte esta controlando os links do menu para ter acesso as paginas corretas*/
 
 p{
+
+}
+
+.button{
     background-color: #4caf50;
     border: none;
-    color: white;
-    padding: 15px 32px;
+    color:white;
+    padding: 12px 28px;
     text-decoration: none;
-    margin-left: 390px;
-    margin-right: 390px;
-    display: inline-flexbox;
-    font-size: 16px;
+    margin-left: 550px;
+    margin-right: 200px;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 8px;
     font-weight: bold;
-    font-size: medium;
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
-    
+    transition-duration: 0.7s;
+}
+
+
+/*esta opção a baixo é onde ativa a animação do botão com a troca da cor, e dentro do .button tem a declaração transition-duration que mostra o tempo de animação*/
+
+.button:hover{
+    background-color: #4ca0af;
+    color: black;
 }
