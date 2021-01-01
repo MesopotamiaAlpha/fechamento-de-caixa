@@ -10,7 +10,7 @@ h2{
 /* esta parte esta controlando os links do menu para ter acesso as paginas corretas*/
 
 p{
-
+    text-align: center;
 }
 
 .button{
@@ -28,12 +28,22 @@ p{
     text-align: center;
     font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
     transition-duration: 0.7s;
+    
 }
 
+/*esta propriedade é para desabilitar alguma função que nao está habilitada*/
+
+.button#desabilitado{
+    opacity: 0.6;
+    cursor: not-allowed;
+    margin-left: 620px;
+    margin-top: 20px;
+}
 
 /*esta opção a baixo é onde ativa a animação do botão com a troca da cor, e dentro do .button tem a declaração transition-duration que mostra o tempo de animação*/
 
 .button:hover{
     background-color: #4ca0af;
     color: black;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
