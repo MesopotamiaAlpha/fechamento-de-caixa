@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+/* esta parte esta controlando os links do menu para ter acesso as paginas corretas*/
+
+p{
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-decoration: none;
+    margin-left: 390px;
+    margin-right: 390px;
+    display: inline-flexbox;
+    font-size: 16px;
+    font-weight: bold;
+    font-size: medium;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+    
+}
