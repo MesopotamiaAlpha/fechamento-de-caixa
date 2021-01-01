@@ -5,9 +5,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: #1c92d2;  
-    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);  
-    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ 
+    background: #1c92d2;
+    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
+    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
 }
 */
 
@@ -49,13 +49,13 @@ section#texto_dinheiro{
 }
 
 section#relatorio{
+        margin-left: auto;
         border-radius: 10px;
-        width: 400px;
-        float: left;  
+        float: left;
 }
 
 section#texto_relatorio1{
-    margin-left: 1%;
+    margin-left: auto;
     border-radius: 10px;
     width: 300px;
     float: center;
@@ -64,19 +64,19 @@ section#texto_relatorio1{
 }
 
 section#prinex{
-    margin-left: 48%;
-    border-radius: 10px;
-    width: 300px;
-    float: center;
-    border: 1mm ridge black;
-    text-align: center; 
+  padding-bottom: 63%;
+  border-radius: 10px;
+  width: 300px;
+  float: center;
+  border: 1mm ridge black;
+  text-align: center;
 }
 
 h1#titulo{
         font: normal 15pt Arial;
         color: black;
         text-align:center;
-    
+
 }
 
 div#txt100{
@@ -110,7 +110,7 @@ div#txt50{
 }
 
 div#txt20{
-    
+
     margin-left: 1%;
     border-radius: 0px;
     width: 300px;
@@ -152,7 +152,7 @@ div#txt5{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;   
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt2{
@@ -167,7 +167,7 @@ div#txt2{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;    
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt1{
@@ -182,7 +182,7 @@ div#txt1{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;    
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt050{
@@ -197,7 +197,7 @@ div#txt050{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;   
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt025{
@@ -212,7 +212,7 @@ div#txt025{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;   
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt010{
@@ -227,7 +227,7 @@ div#txt010{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;    
+    text-shadow: 2px 2px 5px #000000;
 }
 
 div#txt005{
@@ -242,128 +242,106 @@ div#txt005{
     color: #000000;
     text-align: left;
     display: inline-block;
-    text-shadow: 2px 2px 5px #000000;     
+    text-shadow: 2px 2px 5px #000000;
 }
 
 input#nota100{
     width: 60px;
+    height: 30px;
     color: black;
-    right: 800px;
-    position: left;
     top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+    text-align: center;
+    display: inline-block;
 }
 
 input#nota50{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;  
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota20{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota10{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;  
-} 
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
+}
 
 input#nota5{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota2{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda1{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda050{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda025{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda010{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda005{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 div#txtRelatorio{
@@ -373,124 +351,102 @@ div#txtRelatorio{
 }
 
 input#nota2100{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota250{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;  
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota220{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota210{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;  
-} 
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
+}
 
 input#nota25{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#nota22{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda21{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda2050{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda2025{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda2010{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;   
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 input#moeda2005{
-    width: 60px;
-    color: black;
-    right: 800px;
-    position: left;
-    top: 20px;
-    text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;
+  width: 60px;
+  height: 30px;
+  color: black;
+  top: 20px;
+  text-align: center;
+  display: inline-block;
 }
 
 div#prinextxt{
@@ -509,7 +465,7 @@ input#prinex1{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
 }
 
@@ -520,7 +476,7 @@ input#prinex2{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
 }
 
@@ -531,7 +487,7 @@ input#prinex2{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
 }
 
@@ -542,8 +498,8 @@ input#prinex3{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
-    display: inline-block;        
+    text-align: center;
+    display: inline-block;
 }
 
 input#prinex4{
@@ -553,7 +509,7 @@ input#prinex4{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
 }
 
@@ -564,11 +520,10 @@ input#prinex5{
     position: center;
     top: 20px;
     text-transform: uppercase;
-    text-align: center;  
+    text-align: center;
     display: inline-block;
 }
 
 .btn_calc{
     margin-top: 17%;
 }
-
