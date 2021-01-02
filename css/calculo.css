@@ -87,16 +87,15 @@ h1#titulo{
   font: normal 15pt Arial;
   color: black;
   text-align:center;
+  position: relative;
 
 }
 
 div#txt100{
-  margin-left: 1%;
   border-radius: 0px;
   width: 300px;
   border: 0,10mm ridge black;
   text-align: center;
-  background-color:#acd5e5;
   font-size: 15px;
   width: 90px;
   color: #000000;

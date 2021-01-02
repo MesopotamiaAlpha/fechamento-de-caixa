@@ -22,5 +22,8 @@ div#formulario{
   background-color: aqua;
   align-items: center;
   border-radius: 15px;
-  border: 1mm ridge black;
+}
+
+fieldset{
+  border-radius: 15px;
 }
