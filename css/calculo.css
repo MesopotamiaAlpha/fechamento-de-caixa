@@ -58,7 +58,7 @@ section#texto_dinheiro{
   text-align: center;
 }
 
-section#relatorio{
+.relatorio{
   padding-top: 5%;
   margin-left: auto;
   border-radius: 10px;
@@ -91,7 +91,8 @@ h1#titulo{
 
 }
 
-div#txt100{
+.txt100{
+  margin-left: 1%;
   border-radius: 0px;
   width: 300px;
   border: 0,10mm ridge black;
@@ -104,7 +105,7 @@ div#txt100{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt50{
+.txt50{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -119,7 +120,7 @@ div#txt50{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt20{
+.txt20{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -134,7 +135,7 @@ div#txt20{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt10{
+.txt10{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -149,7 +150,7 @@ div#txt10{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt5{
+.txt5{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -164,7 +165,7 @@ div#txt5{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt2{
+.txt2{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -179,7 +180,7 @@ div#txt2{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt1{
+.txt1{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -194,7 +195,7 @@ div#txt1{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt050{
+.txt050{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -209,7 +210,7 @@ div#txt050{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt025{
+.txt025{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -224,7 +225,7 @@ div#txt025{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt010{
+.txt010{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
@@ -239,7 +240,7 @@ div#txt010{
   text-shadow: 2px 2px 5px #000000;
 }
 
-div#txt005{
+.txt005{
   margin-left: 1%;
   border-radius: 0px;
   width: 300px;
