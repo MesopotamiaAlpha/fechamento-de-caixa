@@ -3,3 +3,24 @@
 h1{
   text-align: center;
 }
+
+.box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box div {
+  width: 100px;
+  height: 100px;
+}
+
+div#formulario{
+  text-align: center;
+  width: 250px;
+  height: 330px;
+  background-color: aqua;
+  align-items: center;
+  border-radius: 15px;
+  border: 1mm ridge black;
+}
