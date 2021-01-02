@@ -1,9 +1,7 @@
-window.alert("carregado");
-
 function validar(){
   var usuario = document.getElementById("usuario").value;
   var senha = document.getElementById("senha").value;
-  if ( usuario == "email@email.com" && senha == "teste"){
+  if ( usuario == "teste" && senha == "teste"){
   window.alert ("Login realizado com sucesso!");
   pagina(); // Redirecionando para outra pagina.
   return false;

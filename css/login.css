@@ -17,4 +17,10 @@ h1{
 
 div#formulario{
   text-align: center;
+  width: 250px;
+  height: 330px;
+  background-color: aqua;
+  align-items: center;
+  border-radius: 15px;
+  border: 1mm ridge black;
 }
