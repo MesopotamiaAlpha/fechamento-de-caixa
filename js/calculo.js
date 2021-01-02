@@ -27,7 +27,7 @@ function somar(){
         if (res == 150){
             resultado.innerHTML = `A soma é: ${res} está certo`;
             resultado.style.color = 'green';
-             
+
         }else if (res <= 149){
             resultado.innerHTML = `A soma é: ${res} e está faltando dinheiro`;
             resultado.style.color = 'red';
@@ -35,7 +35,7 @@ function somar(){
             resultado.innerHTML =  `A soma é: ${res} tem dinheiro a mais`;
             resultado.style.color = 'red';
         }
-        
+
 }
 
 function somar2(){
@@ -66,21 +66,21 @@ function somar2(){
     var res2 = mo21+mo205+mo210+mo225+mo250+n22+n25+n210+n220+n250+n2100;
     resultado2.innerHTML = `A soma é: ${res2}`;
 
-    
+
 }
 
 function somar3(){
     var resultado3 = window.document.getElementById('resultado3');
-    var prinex1 = window.document.getElementById('prinex1');
-    var prinex2 = window.document.getElementById('prinex2');
-    var prinex3 = window.document.getElementById('prinex3');
-    var prinex4 = window.document.getElementById('prinex4');
-    var prinex5 = window.document.getElementById('prinex5');
-    var p1 = Number(prinex1.value);
-    var p2 = Number(prinex2.value);
-    var p3 = Number(prinex3.value);
-    var p4 = Number(prinex4.value);
-    var p5 = Number(prinex5.value);
+    var entregas1 = window.document.getElementById('entregas1');
+    var entregas2 = window.document.getElementById('entregas2');
+    var entregas3 = window.document.getElementById('entregas3');
+    var entregas4 = window.document.getElementById('entregas4');
+    var entregas5 = window.document.getElementById('entregas5');
+    var p1 = Number(entregas1.value);
+    var p2 = Number(entregas2.value);
+    var p3 = Number(entregas3.value);
+    var p4 = Number(entregas4.value);
+    var p5 = Number(entregas5.value);
 
 
     var res3 = p1+p2+p3+p4+p5;
