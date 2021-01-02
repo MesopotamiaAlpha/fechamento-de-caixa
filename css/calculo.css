@@ -63,7 +63,7 @@ section#texto_relatorio1{
     text-align: center;
 }
 
-section#prinex{
+section#entregas{
   padding-bottom: 63%;
   border-radius: 10px;
   width: 300px;
@@ -449,7 +449,7 @@ input#moeda2005{
   display: inline-block;
 }
 
-div#prinextxt{
+div#entregastxt{
     font:  70pt;
     width: 90px;
     color: black;
@@ -458,7 +458,7 @@ div#prinextxt{
     display: inline-block;
 }
 
-input#prinex1{
+input#entregas1{
     width: 85px;
     color: black;
     right: 800px;
@@ -469,7 +469,7 @@ input#prinex1{
     display: inline-block;
 }
 
-input#prinex2{
+input#entregas2{
     width: 85px;
     color: black;
     right: 800px;
@@ -480,7 +480,7 @@ input#prinex2{
     display: inline-block;
 }
 
-input#prinex2{
+input#entregas2{
     width: 85px;
     color: black;
     right: 800px;
@@ -491,7 +491,7 @@ input#prinex2{
     display: inline-block;
 }
 
-input#prinex3{
+input#entregas3{
     width: 85px;
     color: black;
     right: 800px;
@@ -502,7 +502,7 @@ input#prinex3{
     display: inline-block;
 }
 
-input#prinex4{
+input#entregas4{
     width: 85px;
     color: black;
     right: 800px;
@@ -513,7 +513,7 @@ input#prinex4{
     display: inline-block;
 }
 
-input#prinex5{
+input#entregas5{
     width: 85px;
     color: black;
     right: 800px;
