@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 body{
-  background-color: rgba(206, 69, 230, 0.46);
+  background-color: rgba(205, 115, 234, 0.39);
 }
 
 h1{
@@ -27,11 +27,47 @@ div#formulario{
   text-align: center;
   width: 250px;
   height: 330px;
-  background-color: aqua;
   align-items: center;
+  border-radius: 15px;
+  opacity: 90%;
+  background-color: aqua;
+}
+.t_login{
+
+}
+
+input{
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+input#usuario:focus, input#senha:focus{
+  background: rgba(226, 98, 181, 0.33);
   border-radius: 15px;
 }
 
 fieldset{
   border-radius: 15px;
+}
+
+.btn{
+  background-color: rgba(67, 54, 187, 0.45);
+  border: none;
+  color:white;
+  padding: 12px 48px;
+  text-decoration: none;
+  width: 40%;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
+  transition-duration: 0.4s;
+
+}
+
+.btn:hover{
+  background-color: black;
+  box-shadow: 5px 5px 5px grey;
 }

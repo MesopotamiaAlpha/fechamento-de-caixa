@@ -20,9 +20,10 @@
   <fieldset>
   <div id="formulario">
     <form>
-      <p><strong>Coloque seu usuário</strong><input type="text" id="usuario" placeholder="Usuário" required></p>
-      <p><strong>Entre com sua senha</strong> <input type="text" id="senha" placeholder="Senha" required></p>
-      <button type="button" type="submit" value="validar" class="btn" onclick="validar()">Entrar</button>
+      <p class="t_login"><strong>Coloque seu usuário</strong><input type="text" id="usuario" placeholder="Usuário" required></p>
+      <p class="t_login"><strong>Entre com sua senha</strong> <input type="text" id="senha" placeholder="Senha" required></p>
+      <!-- Aqui preferi não usar a propriedade button para criar o layout do botão como eu prefiro usando a tag a -->
+      <a class="btn" onclick="validar()">Entrar</a>
       <p>Usuario: teste</p>
       <p>Senha: teste</p>
     </form>
