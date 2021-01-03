@@ -23,7 +23,7 @@ function somar(){
         var mo10 = 0.10*Number(m10.value);
         var mo05 = 0.05*Number(m5.value);
 
-        var res = mo1+mo05+mo10+mo25+mo50+n2+n5+n10+n20+n50+n100
+        var res = mo1+mo05+mo10+mo25+mo50+n2+n5+n10+n20+n50+n100;
         if (res == 150){
             resultado.innerHTML = `A soma é: ${res} está certo`;
             resultado.style.color = 'green';
@@ -65,8 +65,6 @@ function somar2(){
 
     var res2 = mo21+mo205+mo210+mo225+mo250+n22+n25+n210+n220+n250+n2100;
     resultado2.innerHTML = `A soma é: ${res2}`;
-
-
 }
 
 function somar3(){
@@ -81,7 +79,6 @@ function somar3(){
     var p3 = Number(entregas3.value);
     var p4 = Number(entregas4.value);
     var p5 = Number(entregas5.value);
-
 
     var res3 = p1+p2+p3+p4+p5;
     resultado3.innerHTML = `A soma é: ${res3}`;
