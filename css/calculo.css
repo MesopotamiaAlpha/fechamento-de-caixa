@@ -92,7 +92,8 @@ section#entregas{
 }
 
 .txt100{
-  margin-left: 1%;
+  margin-left: 10px;
+  margin-top: 4px;
   border-radius: 0px;
   width: 300px;
   border: 0,10mm ridge black;
@@ -103,7 +104,9 @@ section#entregas{
   text-align: left;
   display: inline-block;
   text-shadow: 2px 2px 5px #000000;
-
+  top: auto;
+  bottom: auto;
+  position: absolute;
 }
 
 .txt50{
