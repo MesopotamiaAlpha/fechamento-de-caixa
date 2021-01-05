@@ -3,9 +3,7 @@
 body{
   top: auto;
   bottom: auto;
-  background: #B993D6;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #8CA6DB, #B993D6);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #8CA6DB, #B993D6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: white;
 }
 
 h1{
@@ -28,6 +26,48 @@ div{
   flex-direction: column;
   justify-content: center;
   align-items: center
+}
+
+header{
+  position: relative;
+  height: 46vh;
+}
+
+.ondas{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.onda-1{
+  animation: moveronda1 3s ease-in-out infinite alternate;
+}
+
+.onda-2{
+  animation: moveronda2 3s 1.2s ease-in-out infinite alternate;
+}
+
+.onda-3{
+  animation: moveronda3 3s ease-in-out infinite alternate;
+}
+
+@keyframes moveronda1 {
+  from{
+    transform: translateX(-2000px);
+  }
+}
+
+@keyframes moveronda2 {
+  from{
+    transform: translateX(-1800px);
+  }
+}
+
+@keyframes moveronda3 {
+  from{
+    transform: translateX(-1600px);
+  }
 }
 
 .button{
