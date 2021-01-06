@@ -1,20 +1,10 @@
 @charset "UTF-8";
-
-/*Esta parte comentei pois estava afetando todo o layout de toda a pagina{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
-    background: #1c92d2;
-    background: -webkit-linear-gradient(to right, #f2fcfe, #1c92d2);
-    background: linear-gradient(to right, #f2fcfe, #1c92d2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+
-}
-*/
+@import url('https://fonts.googleapis.com/css2?family=Cabin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 
 
 body{
-    background: rgb(242,242,245);
-    background: linear-gradient(170deg, rgba(242,242,245,1) 0%, rgba(255,255,255,1) 14%, rgba(0,255,151,0.5847457627118644) 100%);
+    background: #e1f5fe;
 }
 
 .barra_superior{
@@ -23,22 +13,21 @@ body{
   margin-top: 0%;
   padding-top: 10px;
   font: bold 14pt Arial;
+  font-family: 'Cabin', sans-serif;
   width: 1908px;
   height: 120px;
   text-align:left;
-  background: #3CA55C;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #87f1c5, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #87f1c5, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+  background: #1de9b6;
 }
 
 .barra_superior#voltar_menu{
-
+  font-family: 'Cabin', sans-serif;
 }
 
 .barra_superior#titulo{
   text-align: center;
   font: bold 30pt Arial;
+  font-family: 'Cabin', sans-serif;
 }
 
 section#caixa{
@@ -47,6 +36,7 @@ section#caixa{
   border-radius: 10px;
   width: 300px;
   float: left;
+  font-family: 'Varela Round', sans-serif;
 }
 
 section#texto_dinheiro{
@@ -56,6 +46,7 @@ section#texto_dinheiro{
   float: center;
   border: 1mm ridge black;
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .relatorio{
@@ -63,6 +54,7 @@ section#texto_dinheiro{
   margin-left: auto;
   border-radius: 10px;
   float: left;
+  font-family: 'Varela Round', sans-serif;
 }
 
 section#texto_relatorio1{
@@ -81,6 +73,7 @@ section#entregas{
   float: center;
   border: 1mm ridge black;
   text-align: center;
+  font-family: 'Varela Round', sans-serif;
 }
 
 .titulo{
@@ -88,7 +81,7 @@ section#entregas{
   color: black;
   text-align:center;
   position: relative;
-
+  font-family: 'Varela Round', sans-serif;
 }
 
 .txt100{
