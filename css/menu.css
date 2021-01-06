@@ -3,7 +3,7 @@
 body{
   top: auto;
   bottom: auto;
-  background: white;
+  background: #ede7f6;
 }
 
 h1{
@@ -72,7 +72,7 @@ header{
 .button{
   background-color: rgba(67, 54, 187, 0.45);
   border: none;
-  color:white;
+  color: white;
   padding: 12px 48px;
   text-decoration: none;
   width: 18%;
@@ -83,6 +83,7 @@ header{
   text-align: center;
   font-family: 'Gill Sans', 'Gill Sans MT', 'Trebuchet MS', sans-serif;
   transition-duration: 0.7s;
+  margin-bottom: 20px;
 }
 
 /*esta propriedade é para desabilitar alguma função que nao está habilitada*/
