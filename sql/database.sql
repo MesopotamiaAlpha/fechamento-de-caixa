@@ -1,3 +1,5 @@
+--Desenvolvido para o mysql
+
 create database fechamentoCaixa;
 
 use fechamentoCaixa;
