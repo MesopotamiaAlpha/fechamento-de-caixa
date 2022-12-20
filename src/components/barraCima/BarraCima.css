@@ -1,0 +1,13 @@
+.barraCima{
+    display: flex;
+    justify-content: center;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: aquamarine;
+}
+
+.barraMenor{
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: blueviolet;
+}
